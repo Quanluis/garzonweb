@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
+import Gear from './gear.svg'
 
 class App extends Component{
 
@@ -8,9 +9,7 @@ class App extends Component{
     console.log('This is: ', this.State.main)
   }
 
-  onHover = () => {
-    
-  }
+  
   
 
   render() {
@@ -38,6 +37,7 @@ class App extends Component{
         </ul>
        </div>
        <h1>{this.State.title}</h1>
+       <img src={Gear} alt=""/>
      </div>
     
     );
