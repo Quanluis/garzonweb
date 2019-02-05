@@ -4,13 +4,15 @@
 
 h1 {
     text-align: center;
-    font: 3rem solid red;
-    color: red;
+    font-size: 3rem;
+    color: black;
 }
 
 ul {
-    font: 4rem;
-    display: inline;
-    font-size: 1.5rem;
+    display: inline-block;
+}
 
+a {
+    
+    color: black;
 }
