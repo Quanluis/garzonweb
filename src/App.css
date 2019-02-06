@@ -19,10 +19,15 @@ ul {
 }
 
 a {
-    
     color: black;
     background-color: #34495E;
     font-size: 1.3em;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
 }
 
 img {
