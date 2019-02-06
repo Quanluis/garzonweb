@@ -1,5 +1,9 @@
 * {
-    background-color: lightgray;
+    background-color: #D5DBDB;
+}
+
+body {
+    margin: 0px;
 }
 
 h1 {
@@ -10,18 +14,16 @@ h1 {
 
 ul {
     display: inline-block;
+    background-color: #34495E;
+    color: #34495E  ;
 }
 
 a {
     
     color: black;
+    background-color: #34495E;
+    font-size: 1.3em;
 }
-
-/* img {
-  transform: rotate(68deg);
-  -webkit-animation: spin 1s infinite linear;
-  
-} */
 
 img {
     animation: rotate 7s linear infinite;
@@ -37,3 +39,10 @@ img {
       transform: rotate(360deg);
     }
   }
+
+.nav {
+    background-size: cover;
+    background-color: #34495E  ;
+    width: auto;
+    padding: 5px;
+}

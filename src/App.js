@@ -28,7 +28,7 @@ class App extends Component{
 
      
      <div>  
-       <div>
+       <div className = 'nav' >
         <ul>
           <ul><a onClick = {this.click} href="">{this.State.main}</a></ul>
           <ul><a href="">{this.State.about}</a></ul>
