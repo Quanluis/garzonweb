@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Main from './Main';
-import Stateless from './Stateless';
 import './App.css';
 
 
@@ -11,11 +10,10 @@ class App extends Component{
 
     return (
 
-     <div>  
-    <Navbar />
-    <Main />
-    <Stateless />
-     </div>
+    <div>  
+      <Navbar />
+      <Main />
+    </div>
     
     );
   }
